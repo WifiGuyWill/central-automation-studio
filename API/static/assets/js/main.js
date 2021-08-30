@@ -3,7 +3,7 @@ Central Automation v0.1
 */
 
 #var api_url = "https://api.wifidownunder.com"
-var api_url = "http://home.wifi-guys.com"
+var api_url = "http://10.10.10.13"
 var forcedTokenRefresh = true;
 var $SCRIPT_ROOT = '{{ request.script_root|tojson|safe }}';
 var csvData;
